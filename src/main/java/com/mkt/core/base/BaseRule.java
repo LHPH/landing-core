@@ -4,7 +4,6 @@ import com.mkt.core.model.Message;
 
 public interface BaseRule {
 	
-	Boolean evaluate(BaseRegularExpression exp);
-	Message result();
+	Message evaluate(String text,BaseRegularExpression exp);
 
 }
