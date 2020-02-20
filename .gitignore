@@ -12,6 +12,7 @@ buildNumber.properties
 .mvn/
 .settings/
 .project
+.scannerwork
 mvnw
 mvnw.cmd
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar

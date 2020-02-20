@@ -97,25 +97,25 @@ public class DateFunctionsUtil extends BaseUtil{
 		
 	}
 	
-	public static String dateLocaltoString(LocalDate date,String format) {
+	public static String dateLocalToString(LocalDate date,String format) {
 		
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(format);
 		return formatter.format(date);
 	}
 	
-	public static String dateLocaltoString(LocalDate date) {
+	public static String dateLocalToString(LocalDate date) {
 		
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(FORMAT_DATE_DAY_MONTH_YEAR_WITH_SLASH);
 		return formatter.format(date);
 	}
 	
-	public static String dateLocalTimetoString(LocalDateTime date,String format) {
+	public static String dateLocalTimeToString(LocalDateTime date,String format) {
 		
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(format);
 		return formatter.format(date);
 	}
 	
-	public static String dateLocalTimetoString(LocalDateTime date) {
+	public static String dateLocalTimeToString(LocalDateTime date) {
 		
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(FORMAT_DATE_DAY_MONTH_YEAR_TIME_WITH_SLASH);
 		return formatter.format(date);

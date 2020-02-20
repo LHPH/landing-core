@@ -3,6 +3,7 @@ package com.mkt.core.constants;
 public class ConstantsGeneral {
 	
 	public static final String YML_APP_CONFIG_PREFIX="app";
+	public static final String ENDPOINT_BUILD_INFO="/app/build-info";
 	
 	public static final String FORMAT_DATE_YEAR_MONTH_DAY_WITH_UNDERSCORE_ENGLISH="yyyy-MM-dd";
 	public static final String FORMAT_DATE_YEAR_MONTH_DAY_WITH_UNDERSCORE_SPANISH="dd-MM-yyyy";
